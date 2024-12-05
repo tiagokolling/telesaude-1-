@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Consultas de Saúde</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8faff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #333;
+            background-image: url(images/closeup-man-having-video-call-with-his-doctor-evening-home.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+
+        header{
+            background-color: #ffd3cb;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+            position:fixed;
+            top: 0;
+        }
+
+        
+        h1 {
+            font-weight: 700;
+            height: 50px;
+            position: static;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 520px;
+            width: 100%;
+            background: #fffffff1;
+            padding:2em;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+            margin-top: 140px;
+        }
+        h2 {
+            color: rgb(218, 82, 82);
+            margin-bottom: 0.5em;
+            font-weight: 500;
+            text-shadow:0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin: 1.5em 0;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 1em;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1em;
+            margin-top: 0.5em;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #0061A8;
+        }
+
+        button {
+            background-color: rgba(255, 88, 88, 0.815);
+            color: #ffffff;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+.btn-secondary {
+            background-color: #f0f4f8;
+            color: #0061A8;
+            border: 1px solid #0061A8;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background-color: #0061A8;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 0.9em;
+            color: #000000;
+            margin-bottom: 1em;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Plataforma de Consultas de Saúde</h1>
+        <p class="subtitle">Conectando pacientes e profissionais de saúde em um ambiente seguro e acessível.</p>
+        <div class="Consultas"><a href="pages/index2.html">Consultas</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="section" id="login-section">
+                <h2>Login</h2>
+                <input type="text" placeholder="Usuário" required><br><br>
+                <input type="password" placeholder="Senha" required><br><br>
+                <a href="pages/index3.html">Esqueceu sua senha?</a>
+                <a href="pages/index2.html">Crie sua conta</a>
+                <button>Entrar</button>
+            </div>
+        </div>
+        
+            
+    </main>
+
+
+</body>
+</html>

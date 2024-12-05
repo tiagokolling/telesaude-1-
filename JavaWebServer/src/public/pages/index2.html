@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8faff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #333;
+            background-image: url(images/closeup-man-having-video-call-with-his-doctor-evening-home.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+
+        header{
+            background-color: #ffd3cb;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+            position:fixed;
+            top: 0;
+        }
+        footer{
+            background-color: #0061A8;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            
+        }
+    
+        
+        h1 {
+            font-weight: 700;
+            height: 50px;
+            position: static;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 550px;
+            width: 100%;
+            background: #ffffff;
+            padding:2em;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+            margin-top: 140px;
+        }
+        container{
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            padding: 2em;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+            display: inline-block;
+        }
+        h2 {
+            color: rgb(218, 82, 82);
+            margin-bottom: 0.5em;
+            font-weight: 500;
+            text-shadow:0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin: 1.5em 0;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 1em;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1em;
+            margin-top: 0.5em;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #0061A8;
+        }
+
+        button {
+            background-color: rgba(255, 88, 88, 0.815);
+            color: #ffffff;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+.btn-secondary {
+            background-color: #f0f4f8;
+            color: #0061A8;
+            border: 1px solid #0061A8;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background-color: #0061A8;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 0.9em;
+            color: #000000;
+            margin-bottom: 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="section" id="cadastro-section">
+                <h2>Cadastro</h2>
+                <input type="name" placeholder="Nome" required><br><br>
+                <input type="text" placeholder="Usuário" required><br><br>
+                <input type="password" placeholder="Senha" required><br><br>
+                <button>Criar</button>
+            </div>
+        </div> 
+    </main>
+</body>
+</html>
